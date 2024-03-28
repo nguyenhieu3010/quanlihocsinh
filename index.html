@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QUẢN LÍ SINH VIÊN</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<!-- // chỉnh kích thướng ảnh-->
+<style>
+    img{
+        width: 50px;
+        height: 50px;
+    }
+</style>
+<body>
+<div>
+    <div class="header">
+        <div class="h-left">
+            <button onclick="showAll()">Trang chủ </button>
+            <button onclick="showFormAdd()">Thêm sinh viên</button>
+        </div>
+        <div class="h-right">
+            <input type="text" id="search" onchange="searchProduct()" >
+
+        </div>
+    </div>
+
+</div>
+<center>
+
+    <div id = "main" style="margin-top: 50px">
+
+    </div>
+
+</center>
+
+
+
+
+<script src="productManager.js"></script>
+<script src="product.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
